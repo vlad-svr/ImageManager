@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none
+}
+
+html, body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    height: 100%; 
+}
+
+.bg-image-header-index {
+    background-image: linear-gradient(141deg,#1e5aff 0,rgb(221, 138, 247) 71%,#59fff7 100%);
+}
+.bg-image-header-password {
+    background-image: linear-gradient(141deg,#353535 0,rgb(83, 83, 83) 71%,#858585 100%);
+}
+.bg-image-header-register {
+    background-image: linear-gradient(141deg,rgb(38, 153, 54) 0, rgb(40, 95, 214)1%, #59ff82 100%);
+}
+.bg-image-header-photo {
+    background-image: linear-gradient(141deg,#209cee 0, #209cee 1%, #209cee 100%);
+}
+.bg-image-header-category {
+    background-image: linear-gradient(141deg,#00b398 0, #00b196 1%, #00b499 100%);
+}
+.bg-image-header-profile {
+    background-image: linear-gradient(141deg,#ff0000 0, #ff3d3d 1%, #ff6d6d 100%);
+}
+
+.bg-image-header-reset-pass {
+    background-image: linear-gradient(141deg,#363636 0, #363636 1%, #363636 100%);
+}
+
+.bg-image-header-login {
+    background-image: linear-gradient(141deg,#363636 0, #363636 1%, #363636 100%);
+}
+
+.bg-image-header-upload {
+    background-image: linear-gradient(141deg,#ffdd57 0, #ffdd57 1%, #ffdd57 100%);
+}
+.bg-image-header-photos {
+    background-image: linear-gradient(141deg,#004bad 0, #004bad 1%, #3e87db 100%);
+}
+.bg-image-header-user {
+    background-image: linear-gradient(141deg,#272727 0,rgb(116, 96, 189) 71%,#433779 100%);
+}
+
+
+.fs {
+    font-size: 12px;
+    display: block;
+}
+.fs14 {
+    font-size: 14px;
+    display: block;
+}
+
+.foot {
+    background-color: rgb(231, 231, 231);
+}
+
+.nav-item {
+   margin-left: 2em;
+} 
+.nav-item:last-child {
+    margin-left: 0;
+ }
+
+.a-style {
+    font-size: 18px;    
+    color: rgb(59, 59, 59); 
+    text-decoration: none;
+    height: 40px;
+    
+}
+.a-style:hover {
+    border-bottom: 1px solid #1e5aff;
+}
+
+.my-mt {
+    margin-top: 56px
+}
+
+.close {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none
+}
+
+/* Admin-panel */
+
+.bg-head-admin {
+background-color: #605ca8;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-26 {
+    font-size: 20px;
+}
+
+.w-65 {  
+    width: 65em;
+}
+
+.h-90 {
+    height: 87%;
+}
+
+.min-we {
+    min-width: 87%;
+}
+
+
+
+.bg-gr {
+    background-color: rgb(231, 231, 231);
+}
+
+.bord {
+    border-top: 1px solid #d3d3d3;
+}
+
+.pf {
+    padding: 0.875rem 1.25rem;
+}
+
+.border-icon-admin {
+    border-radius: 50%;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.box-footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.alert p {
+    margin-bottom: 0;
+}
+
+.icon-show {
+    width: 22px;
+}
+
+.card-a {
+    outline: none;
+    color: #212529;
+    text-decoration: none;
+}
+
+.card-a:hover {
+    color: #212529;
+    text-decoration: none
+}
+
+.a-head {
+    color: #fff;
+    text-decoration: none
+}
+
+.hover-card:hover {
+    background: rgb(231, 231, 231);
+}
+
+.avatar-jumbotron {
+    width: 120px;
+    border-radius: 50%;
+}

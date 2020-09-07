@@ -1,0 +1,1 @@
+<img src="<?= getImg($image['image'])?>">
